@@ -1,0 +1,46 @@
+#container{
+    display: flex;
+    /* margin-top: 100px; */
+    justify-content: center;
+}
+
+#userInput{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#gridSpace{
+    min-width: 702px;
+    min-height: 702px;
+    max-width: 702px;
+    max-height: 702px;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid gray;
+}
+
+#gridRows{
+    display: flex;
+}
+
+#gridSquare{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /* margin: 2px; */
+    /* columnSquare.style.padding = "2px";
+    columnSquare.style.border = "2px";
+    columnSquare.style.borderColor = "black"; */
+    border: 2px solid gray;
+}
+
+button{
+    margin: 0 50px;
+}
