@@ -69,7 +69,7 @@ function getRandomColor() {
   }
 
 function setupGrid(){
-    let newGridCount = prompt("Enter new grid size between 1 and 100", `Current grid is ${gridCount}`);
+    let newGridCount = prompt("Enter new grid size between 1 and 100", gridCount);
     if(newGridCount === null){
         return;
     }
